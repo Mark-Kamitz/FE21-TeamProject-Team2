@@ -1,0 +1,30 @@
+.form-control {
+  border-radius: 1rem;
+}
+
+.contact-image img {
+  border-radius: 6rem;
+  -webkit-transform: rotate(29deg);
+          transform: rotate(29deg);
+}
+
+.contact-form form {
+  padding: 14%;
+}
+
+h3 {
+  margin-bottom: 10%;
+  margin-top: -15%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.btn {
+  width: 50%;
+  border-radius: 2rem;
+  padding: 1.5%;
+  font-weight: 600;
+  background-color: whitesmoke;
+  color: #84757D;
+}
+/*# sourceMappingURL=contact.component.css.map */

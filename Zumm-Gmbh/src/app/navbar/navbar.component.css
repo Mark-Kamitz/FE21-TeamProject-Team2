@@ -1,0 +1,89 @@
+h1 {
+  color: white;
+  font-size: 4em;
+  font-family: 'Great Vibes', cursive;
+}
+
+nav ul li a {
+  margin: 10px;
+  padding: 20;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: white;
+  height: 1px;
+}
+
+nav ul li a:hover:after {
+  z-index: -10;
+  -webkit-animation: fill 0.5s forwards;
+          animation: fill 0.5s forwards;
+  opacity: 3;
+  width: 100%;
+}
+
+nav ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+@-webkit-keyframes fill {
+  0% {
+    width: 0%;
+    height: 5px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #afaaa7;
+  }
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+    height: 5px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    background: #afaaa7;
+  }
+}
+/*# sourceMappingURL=navbar.component.css.map */
