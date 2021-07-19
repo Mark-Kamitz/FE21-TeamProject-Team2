@@ -1,2 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+body {
+  background: url("assets/background.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+}
 /*# sourceMappingURL=styles.css.map */
