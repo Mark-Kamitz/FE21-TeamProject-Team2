@@ -1,3 +1,4 @@
+// external js: isotope.pkgd.js
 import { Component, OnInit } from '@angular/core';
 import { projects } from '../portfolio';
 import { DOCUMENT } from '@angular/common';
@@ -17,8 +18,8 @@ start = ""
     window.location.reload();
   } 
   ngOnInit(): void {
-
+    
   }
-  
+
 }
 
