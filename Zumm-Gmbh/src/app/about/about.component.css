@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=about.component.css.map */
+.names, h2 {
+  font-family: 'Playfair Display SC', serif;
+  padding-top: 5px;
+}
+
+.signature {
+  font-family: 'Marck Script', cursive;
+}
+
+img {
+  width: 25rem;
+  height: 25rem;
+}
+
+.border {
+  width: 20rem;
+  height: 15rem;
+  color: black;
+  position: relative;
+  margin: 200px -80px;
+}
+
+h2 {
+  letter-spacing: 5px;
+}
+/*# sourceMappingURL=about.component.css.map */

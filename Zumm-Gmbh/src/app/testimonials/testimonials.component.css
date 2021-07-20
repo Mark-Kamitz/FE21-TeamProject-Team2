@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=testimonials.component.css.map */
+.myImg {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#nameProfession {
+  color: #987c44;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 0.5rem;
+}
+
+.maskDarker {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 0.5rem;
+}
+/*# sourceMappingURL=testimonials.component.css.map */

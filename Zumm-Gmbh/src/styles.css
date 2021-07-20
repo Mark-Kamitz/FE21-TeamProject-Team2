@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
 body {
   background: url("assets/background.jpg") no-repeat fixed;
   background-size: cover;
-  height: 100vh;
+  margin-bottom: 60px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

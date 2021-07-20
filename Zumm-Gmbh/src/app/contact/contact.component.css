@@ -20,11 +20,30 @@ h3 {
 }
 
 .btn {
-  width: 50%;
+  width: 25%;
   border-radius: 2rem;
   padding: 1.5%;
   font-weight: 600;
   background-color: whitesmoke;
   color: #84757D;
+}
+
+.title-has-line {
+  position: relative;
+  margin-bottom: 2%;
+}
+
+.monospace {
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+h5 {
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=contact.component.css.map */
