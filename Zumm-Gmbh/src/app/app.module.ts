@@ -11,6 +11,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { CustomersComponent } from './customers/customers.component';
 import { AboutComponent } from './about/about.component';
+import { PrivacyComponent } from './privacy/privacy.component';
+import { TermsandconditionsComponent } from './termsandconditions/termsandconditions.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { AboutComponent } from './about/about.component';
     PortfolioComponent,
     TestimonialsComponent,
     CustomersComponent,
-    AboutComponent
+    AboutComponent,
+    PrivacyComponent,
+    TermsandconditionsComponent
   ],
   imports: [
     BrowserModule,
