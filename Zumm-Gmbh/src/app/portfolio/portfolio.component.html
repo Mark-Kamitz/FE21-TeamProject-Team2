@@ -9,13 +9,31 @@
   </div> 
 </div> -->
 <!-- {{start}} -->
-<div class="container">
+
+
+<!-- <div class="container my-5">
 <div id ="grid" class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "masonry" }'>
   <div class="grid-item" *ngFor="let id of products">
     <img class="card-img-top" src="{{id.image}}" alt="Card Image">
+    
   </div>
 </div>
-</div>
+</div> -->
+
+
+
+    
+        <div class="container my-5">
+          <div id ="grid" class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "masonry" }'>
+            
+                <div class="grid-item item" *ngFor="let id of products">
+                  <a href="{{id.image}}" data-lightbox="photos"><img class="img-fluid" src="{{id.image}}"></a>
+                </div>
+              </div>   
+         
+        </div>
+    
+  
 
 
 
