@@ -17,7 +17,7 @@ start = ""
     window.location.reload();
   } 
   ngOnInit(): void {
-    this.refresh();
+
   }
   
 }
