@@ -17,6 +17,8 @@ start = ""
   refresh(): void {
     window.location.reload();
   } 
+
+  
   ngOnInit(): void {
     
   }

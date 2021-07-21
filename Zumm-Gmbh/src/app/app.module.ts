@@ -13,6 +13,9 @@ import { CustomersComponent } from './customers/customers.component';
 import { AboutComponent } from './about/about.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsandconditionsComponent } from './termsandconditions/termsandconditions.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -30,7 +33,8 @@ import { TermsandconditionsComponent } from './termsandconditions/termsandcondit
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
