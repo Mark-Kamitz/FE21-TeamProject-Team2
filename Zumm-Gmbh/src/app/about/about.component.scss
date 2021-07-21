@@ -9,14 +9,25 @@ img {
     width:25rem; 
     height:25rem;
 }
-.border {
+.right {
     width: 20rem; 
     height: 15rem;
     color: black;
     position: relative;
-    margin:200px -80px;
+    left: -100px;
+    top:200px;
     
 }
+.left{
+    width: 20rem; 
+    height: 15rem;
+    color: black;
+    position: relative;
+    right: 600px;
+    top:200px;
+}  
+
+
 h2 {
     letter-spacing: 5px;
 }
