@@ -7,7 +7,7 @@
         <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
     </div>
 
-    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm.value)">
         <h3>We’d Love to Hear From You</h3>
         
         

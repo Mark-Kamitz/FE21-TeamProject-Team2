@@ -18,16 +18,26 @@ export class ContactComponent implements OnInit {
   
   constructor() { }
 
-  onSubmit(){
+  onSubmit(customersData: any){
     if(this.contactForm.valid){
       var a = this.contactForm.value;
-      console.log(a)
+      alert("Thank you for your email");
+      this.contactForm.reset();
+   } 
+   else if(customersData.txtName ===""){
+    alert("Please fill out the text Fields");
+   }
+   else if(customersData.txtEmail ===""){
+    alert("Please fill out a valid Email Adress");
+   }
+   else if(customersData.txtPhone ===""){
+    alert("Please fill out the Phone number");
    }
    else{
     alert("Please fill out all Fields");
    }
   }
-
+  
   ngOnInit(): void {
   }
 }
