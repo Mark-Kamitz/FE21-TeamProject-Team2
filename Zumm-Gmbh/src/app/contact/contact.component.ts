@@ -37,7 +37,6 @@ export class ContactComponent implements OnInit {
     alert("Please fill out all Fields");
    }
   }
-  
   ngOnInit(): void {
   }
 }
