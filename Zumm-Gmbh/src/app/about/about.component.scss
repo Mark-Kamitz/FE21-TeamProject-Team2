@@ -12,19 +12,21 @@ img {
 .right {
     width: 20rem; 
     height: 15rem;
-    color: black;
+   
     position: relative;
     left: -100px;
     top:200px;
+    background-color: lightgray;
     
 }
 .left{
     width: 20rem; 
     height: 15rem;
-    color: black;
+   
     position: relative;
-    right: 600px;
+    left: -600px;
     top:200px;
+    background-color: lightgray;
 }  
 
 
