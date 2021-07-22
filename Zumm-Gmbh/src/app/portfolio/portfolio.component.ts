@@ -1,7 +1,7 @@
-// external js: isotope.pkgd.js
+
 import { Component, OnInit } from '@angular/core';
 import { projects } from '../portfolio';
-import { DOCUMENT } from '@angular/common';
+ 
 
 @Component({
   selector: 'app-portfolio',
@@ -11,16 +11,22 @@ import { DOCUMENT } from '@angular/common';
 export class PortfolioComponent implements OnInit {
 dataisotope  = ' { "itemSelector": ".grid-item", "layoutMode": "fitRows" } ';
 products = projects
-start = ""
 
-  constructor() { }
+start = ""
+elem = document.querySelector('.grid');
+
+
+  constructor() {
+    
+   }
+
   refresh(): void {
     window.location.reload();
   } 
-
+  
   
   ngOnInit(): void {
-    
+
   }
 
 }

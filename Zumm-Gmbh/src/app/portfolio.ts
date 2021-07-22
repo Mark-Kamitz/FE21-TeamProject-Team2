@@ -86,16 +86,16 @@ export const projects = [
   },
   {
     image: 'https://cdn.pixabay.com/photo/2014/12/09/21/05/still-life-562370_960_720.jpg',
-    id: 'fine art',
+    id: 'fineart',
   },
   {
     image: 'https://cdn.pixabay.com/photo/2018/05/16/20/06/still-life-3406891_960_720.jpg',
-    id: 'fine art',
+    id: 'fineart',
   },
 
   {
     image: 'https://cdn.pixabay.com/photo/2019/06/24/07/56/surreal-4295436_960_720.jpg',
-    id: 'fine art',
+    id: 'fineart',
   },
 
   {
@@ -127,3 +127,4 @@ export const projects = [
     id: 'cars',
   }
 ];
+
