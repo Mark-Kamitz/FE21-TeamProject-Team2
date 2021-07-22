@@ -1,7 +1,7 @@
 <div class="container mb-5 mt-2">
       
       
-      <div class="button-group filter-button-group my-3 fs-6 fw-light">
+      <!-- <div class="button-group filter-button-group my-3 fs-6 fw-light">
         <button class="border-0 bg-transparent text-white" data-filter="*">show all</button>
         <button class="border-0 bg-transparent text-white" data-filter=".porttraits">portraits</button>
         <button class="border-0 bg-transparent text-white" data-filter=".nature">nature</button>
@@ -9,13 +9,13 @@
         <button class="border-0 bg-transparent text-white" data-filter=".architecture">architecture</button>
         <button class="border-0 bg-transparent text-white" data-filter=".fineart">fineart</button>
         <button class="border-0 bg-transparent text-white" data-filter=".cars">cars</button>
-      </div>
+      </div> -->
        
        
        
        
-              <!-- <div id ="grid" class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "masonry" }'> -->
-                <div id="grid" class="grid">
+              <div id ="grid" class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "masonry" }'>
+                <!-- <div id="grid" class="grid"> -->
                 <div class="grid-item item {{ id.id }}" *ngFor="let id of products">
                   <a href="{{ id.image }}" data-lightbox="photos"><img class="img-fluid" src="{{id.image}}"></a>
                 </div>
